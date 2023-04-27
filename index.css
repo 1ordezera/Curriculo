@@ -25,21 +25,19 @@ a {
 
 p {
     color: rgb(0, 0, 0);
+    text-align: center;
     text-decoration: none;
     font-size: 22px;
     font-family:  Courier New, monospace
 }
+
 header {
     position: relative;
 }
 header img{
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 380px;
     border-radius: 50%;
-    border: 5px solid #0612b3;
-}
-
-img.um{
     border: 5px solid #0612b3;
 }
 
@@ -50,6 +48,10 @@ img.um{
 h1 {
     color: #0612b3;
     text-align: center;
+    animation-name: animacao;
+    animation-duration: 3.5s;
+    animation-delay: 2s;
+
 }
 
 h2 {
@@ -59,68 +61,58 @@ h2 {
 
 h3 {
     color: #0612b3;
+    text-align: center;
     font-size: 38px;
     font-weight: bold;
     font-family: Courier New, monospace
+    
 }
 
-h4 {
-    font-size: 25px;
-}
-
-h5 {
-    color: #0612b3;
-}
-
-footer img {
+.redes img {
     width: 40px;
     height: 40px;
 }
 
-footer {
+.redes {
     display: flex;
     justify-content: center;
 }
 
-footer a {
-    margin: 20px;
+.redes a {
+    margin: 10px;
     text-align: center;
 }
 
-footer p {
-    margin-top: 2px;
-}
-
-.fiadaputinha img {
-    width: 40px;
-    height: 40px;
-}
-
-.fiadaputinha {
-    display: flex;
-    justify-content: center;
-}
-
-.fiadaputinha a {
-    margin: 20px;
-    text-align: center;
-}
-
-.fiadaputinha p {
-    margin-top: 2px;
+.redes p {
+    margin-top: 0px;
 }
 .container {
-    padding: 0px 50px;
+    padding: 5px 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.container p {
+    margin-top: 1px;
+    text-align: center;
+}
+
+.container a {
+    margin: 20px;
+    text-align: center;
+}
+
+.container img {
+    width: 40px;
+    height: 40px;
+    
 }
 
 nav a {
-    font-size: 20px;
+    font-size: 10px;
 }
 
-nav a:hover {
-    color: #0612b3;
-}
-
+/* Contact */
 .contact-form input{
     width: 100%;
     padding: 8px 0;
