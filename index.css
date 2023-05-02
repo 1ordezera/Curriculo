@@ -109,20 +109,34 @@ h5 {
     text-align: center;
 }
 
-.container p {
+.container p{
     margin-top: 1px;
     text-align: center;
 }
 
-.container a {
+.container {
+    opacity: 0.5;
     margin: 20px;
     text-align: center;
 }
 
-.container img {
+.container > nav> ul > li > a {
+    margin: 20px;
+}
+
+.container > nav> ul > li > a > img{
+    margin: 20px;
+    text-align: center;
+    transition-duration: 0.7s;
+    opacity: 1.5;
     width: 40px;
     height: 40px;
-    
+    opacity: 0.5;
+}
+
+.container > nav> ul > li > a > img:hover{
+    opacity: 1.0;
+    scale: 3.2;
 }
 
 nav a {
